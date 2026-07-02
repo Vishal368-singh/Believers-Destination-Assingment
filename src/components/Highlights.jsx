@@ -1,6 +1,8 @@
+import { scheduleItems } from './bootcampData'
+
 function Highlights() {
   return (
-    <section className="highlights">
+    <section className="highlights" id="highlights">
       <div className="section-shell highlight-grid">
         <div className="highlight-image">
           <img
@@ -26,6 +28,15 @@ function Highlights() {
             <li>Built for retention, recall and exam temperament</li>
           </ul>
         </div>
+      </div>
+
+      <div className="section-shell schedule-panel" aria-label="Bootcamp schedule highlights">
+        {scheduleItems.map((item) => (
+          <div className="schedule-item" key={item}>
+            <span aria-hidden="true" />
+            <p>{item}</p>
+          </div>
+        ))}
       </div>
     </section>
   )

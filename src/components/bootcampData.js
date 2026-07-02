@@ -29,7 +29,7 @@ export const mentorCards = [
 export const programCards = [
   {
     title: 'Program 1',
-    subtitle: 'Live Classes + Personal Cubicle with Desktop for CBT / self study',
+    subtitle: 'Live classes + personal cubicle with desktop for CBT / self study',
     fee: 'Rs 37,000',
     points: [
       'Subject wise computer based test followed by live discussion',
@@ -41,7 +41,7 @@ export const programCards = [
   },
   {
     title: 'Program 2',
-    subtitle: 'Relay Classes + Personal Cubicle for self study (No desktop)',
+    subtitle: 'Relay classes + personal cubicle for self study (No desktop)',
     fee: 'Rs 32,000',
     points: [
       'Subject wise computer based test on desktop followed by relay discussion',
@@ -84,4 +84,13 @@ export const differenceCards = [
     title: 'Concepts to Practice',
     description: 'Concepts, PYQs, GTs and rapid revision are covered under one roof.',
   },
+]
+
+export const scheduleItems = [
+  'Daily subject-wise CBT practice',
+  'Grand Tests every 15 days',
+  'Live or relay discussion after tests',
+  'Weekly doubt-solving sessions',
+  'Personal cubicle for disciplined self study',
+  'Focused revision plan for NEET PG, INI-CET and FMGE',
 ]
