@@ -35,7 +35,6 @@ function Hero() {
         </strong>
       </div>
 
-      <p className="hero-tagline">Crack the exam. Own the rank.</p>
     </section>
   )
 }
